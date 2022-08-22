@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:spring-cloud
+    user: sa
+    password: '{cipher}6fa169429effae4e9b0f0988f31496cd36d6543b13ef72ffe1dd93857f1f40b7'
+
+token:
+  expiration_time: 864000000
+  secret: user_token_native_user_service_default
+
+gateway:
+  ip: 172.30.1.8
